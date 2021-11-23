@@ -1,0 +1,1 @@
+modified by me to support non-default documents locations and clean up a bit better.
