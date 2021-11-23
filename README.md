@@ -5,4 +5,4 @@ use the duckencoder.jar from https://github.com/hak5darren/USB-Rubber-Ducky to e
 
 place encoder and txt file into same location and open a terminal in the folder then run (windows)
 
-java -jar duckencoder -i (exampletext.txt)
+java -jar duckencoder -i exampletext.txt
