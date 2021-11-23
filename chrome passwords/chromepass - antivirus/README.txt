@@ -1,3 +1,3 @@
 UNFINISHED PROOF OF CONCEPT
 
-The download will be blocked by an antivirus.
+Downloads chromepass and exports a csv to send to email, antivirus WILL block chromepass.exe
