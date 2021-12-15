@@ -1,0 +1,31 @@
+REM Author: Drew Schmdit
+REM Title: Set Target Feature Update - Stop Windows 11
+REM Date: 12/15/21
+REM
+REM
+REM
+DELAY 2000
+GUI x
+DELAY 500
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+ENTER
+DELAY 500
+ALT y
+DELAY 500
+STRING powershell
+ENTER
+DELAY 2000
+STRING reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /f /v TargetReleaseVersion /t REG_DWORD /d 1
+ENTER
+REM CHANGE TO DESIRED VERSION NUMBER
+STRING reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /f /v TargetReleaseVersionInfo /t REG_SZ /d 21H2
+ENTER
+STRING exit
+ENTER
