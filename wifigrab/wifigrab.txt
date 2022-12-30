@@ -2,6 +2,7 @@ REM Title: WiFi-Harvester
 REM Author: tony
 REM Based on the code of: Siem TTommy
 REM :Version 1.1
+REM Modified by Mountain
 REM
 REM REPLACE ALL INSTANCES OF SENDEMAIL, SENDEMAILPASSWORD, RECEIVEEMAIL
 REM
